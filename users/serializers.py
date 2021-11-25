@@ -4,6 +4,13 @@ from rest_framework_simplejwt.tokens import AccessToken, RefreshToken, TokenErro
 
 from .models import User
 
+
+class UserNameSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['username']
+
+
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
