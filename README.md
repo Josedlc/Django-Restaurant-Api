@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/Josedlc/Django-Restaurant-Api.svg?branch=master)](https://app.travis-ci.com/Josedlc/Django-Restaurant-Api)
+
 # Django Authentication with JWT 
 
 ## First steps
