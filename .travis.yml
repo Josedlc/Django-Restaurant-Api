@@ -5,7 +5,7 @@ env:
       - PSQL_USERNAME=francisco
       - PSQL_PASS=jose_francisco123*
       - PSQL_DBNAME=prueba
-      - PSQL_HOST=localhost
+      - PSQL_HOST=104.237.129.63
       - PSQL_PORT=5514
 
 services:
